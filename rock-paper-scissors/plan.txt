@@ -1,0 +1,21 @@
+
+'calculateRoundResult' function takes in the playerMove and computerMove as its arguments
+
+function calculateRoundResult( playerMove, computerMove) {}
+
+options for both playerMove and computerMove will always be 'rock' or 'paper' or 'scissors'
+
+depending on these two args (playerMove, computerMove), the fucntion calculateRoundResult() returns an object containing:
+1. OUTCOME 1 (win/loss)
+    - outcome: who is winner?
+    - message: `Player chose [rock/paper/scissors] and computer chose [rock/paper/scissors]. [Player wins/Computer wins].`
+2. OUTCOME 2 (draw)
+    - outcome: who is winner?
+    - message: `Both players chose [rock/paper/scissors]. It's a draw.`
+
+The normal rules of rock paper scissors apply i.e. rock beats scissors, scissors beat paper, paper beats rock.
+
+If either of the human move or computer move is unsupported/invalid, then an error should be thrown.
+
+FUNCTION generateComputerMove() returns a random move
+- either [ROCK, PAPER, scissors]

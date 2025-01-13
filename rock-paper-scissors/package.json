@@ -1,7 +1,18 @@
 {
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {}
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  },
+  "scripts": {
+    "start": "node app.js" ,
+    "test": "vitest"
+  },
+  "name": "rock-paper-scissors",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
 }

@@ -17,15 +17,19 @@
  * ```
  */
 export function calculate(operator, firstNumber, secondNumber) {
+  if (!firstNumber || !secondNumber) {
+    return "Error, you're missing a number input!";
+  }
   switch (operator) {
     case "+":
-      return firstNumber + secondNumber;
+      //  parseFloat(num.toFixed(2))
+      return parseFloat((firstNumber + secondNumber).toFixed(2));
     case "-":
-      return firstNumber - secondNumber;
+      return parseFloat((firstNumber - secondNumber).toFixed(2));
     case "*":
-      return firstNumber * secondNumber;
+      return parseFloat((firstNumber * secondNumber).toFixed(2));
     case "/":
-      return firstNumber / secondNumber;
+      return parseFloat((firstNumber / secondNumber).toFixed(2));
     case "sq":
       // Even if caller passes in an argument for `secondNumber`, it's effectively ignored.
       return firstNumber * firstNumber;
