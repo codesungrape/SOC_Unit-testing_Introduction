@@ -1,7 +1,17 @@
 {
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {}
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "name": "proof-of-concept",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type":"module"
 }

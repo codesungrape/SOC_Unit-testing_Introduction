@@ -1,7 +1,17 @@
 {
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {}
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "name": "calculator",
+  "main": "calculator.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
 }
